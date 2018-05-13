@@ -1,0 +1,24 @@
+.bg-light {
+    background-color: #191C1D !important;
+}
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+.navbar-brand {
+    padding-right: 50%;
+}
+a.nav-item.nav-link.active, a.nav-item.nav-link {
+    color: #fff !important;
+}
+
+.cashBanner {
+    height: 1.3em;
+    background-color: #66A800;
+    color: #fff;
+    text-align: center;
+    font-size: .9em;
+}
+
+div#carouselExampleIndicators {
+    border-bottom: solid 5px #66A800;
+}
