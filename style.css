@@ -13,12 +13,101 @@ a.nav-item.nav-link.active, a.nav-item.nav-link {
 
 .cashBanner {
     height: 1.3em;
-    background-color: #66A800;
+    background-color: #8CCAEA;
     color: #fff;
     text-align: center;
     font-size: .9em;
 }
 
 div#carouselExampleIndicators {
-    border-bottom: solid 5px #66A800;
+    border-bottom: solid 5px #8CCAEA;
+}
+#aboutUsSection{
+    left: 0;
+    right: 0;
+  
+    display: block;
+    background-image: url('assets/aboutus3.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    border-bottom: solid 5px #3A7186;
+}
+
+#aboutUsSection .container {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin: auto !important;
+}
+#aboutUsSection .row {
+    text-align: center;
+    color: #fff;
+}
+img.rounded-circle {
+    max-width: 80%;
+}
+
+body {
+    text-shadow: #191C1D 1px 0 10px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+p {
+    font-weight: 300 !important;
+    font-size: 1.1em; 
+}
+
+.infoTab {
+    background-color: #191C1D;
+    background-color: rgba(25, 28, 29, .7);
+    text-align: center;
+    padding: 1em;
+    box-shadow: 12px 12px 5px 1px rgba(58, 113, 134, .2);
+
+}
+
+#contactUsSection {
+    height: 600px;
+    background-color: #191C1D;
+
+}
+
+.formContainer {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5em;
+    background-color: rgba(58, 113, 134, .3);
+    box-shadow: 12px 12px 2px 1px rgba(58, 113, 134, .5);
+    color: #fff;
+}
+
+.footerContainer {
+    text-align: center;
+    padding: 3em;
+    padding-bottom: 1em;
+    color: #fff;
+    background-color: #191C1D;
+}
+
+.socialRow {
+    text-align: center;
+    margin: auto;
+    width: 25%;
+}
+
+.grayText {
+    color: #8D8E90;
+    font-size: .9em;
+    padding-top: 1em;
+    padding-bottom: 0;
+}
+
+.form-control {
+    background-color: rgba(58, 113, 134, .5);
+    color: #000 !important;
+}
+::placeholder {
+    color: #fff !important;
+
 }
